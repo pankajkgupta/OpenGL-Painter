@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGL-Painter", "OpenGL-Painter\OpenGL-Painter.vcxproj", "{AF648A69-E305-40AE-8AE7-61A6FB699BD6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WiiYourself", "WiiYourself\WiiYourself.vcxproj", "{EF5F7283-4BA0-4062-9540-44CAB29187D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WiiDemo", "WiiDemo\WiiDemo.vcxproj", "{EADD6F37-96CC-45BF-9114-A0BC0F0CAB2D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF5F7283-4BA0-4062-9540-44CAB29187D7} = {EF5F7283-4BA0-4062-9540-44CAB29187D7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF648A69-E305-40AE-8AE7-61A6FB699BD6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF648A69-E305-40AE-8AE7-61A6FB699BD6}.Debug|Win32.Build.0 = Debug|Win32
+		{AF648A69-E305-40AE-8AE7-61A6FB699BD6}.Release|Win32.ActiveCfg = Release|Win32
+		{AF648A69-E305-40AE-8AE7-61A6FB699BD6}.Release|Win32.Build.0 = Release|Win32
+		{EF5F7283-4BA0-4062-9540-44CAB29187D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EF5F7283-4BA0-4062-9540-44CAB29187D7}.Debug|Win32.Build.0 = Debug|Win32
+		{EF5F7283-4BA0-4062-9540-44CAB29187D7}.Release|Win32.ActiveCfg = Release|Win32
+		{EF5F7283-4BA0-4062-9540-44CAB29187D7}.Release|Win32.Build.0 = Release|Win32
+		{EADD6F37-96CC-45BF-9114-A0BC0F0CAB2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EADD6F37-96CC-45BF-9114-A0BC0F0CAB2D}.Debug|Win32.Build.0 = Debug|Win32
+		{EADD6F37-96CC-45BF-9114-A0BC0F0CAB2D}.Release|Win32.ActiveCfg = Release|Win32
+		{EADD6F37-96CC-45BF-9114-A0BC0F0CAB2D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
